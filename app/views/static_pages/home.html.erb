@@ -2,11 +2,16 @@
 <!DOCTYPE html>
 <html>
 <body>
+<div class="center hero-unit">
 <h1>Sample App</h1>
-<p>
+<h2>
 This is the Home page :D :D
 <a href="http://google.com">Google</a>
 Sample Application
-</p>
+</h2>
+<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<% link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 </body>
 </html>
